@@ -241,6 +241,7 @@ li.choose-1{
     height: 82px;
     /*background: yellow;*/
     float: left;
+    padding: 3px 0;
 }
 .choose-smallbox li:nth-child(1){
     width: 60px;
@@ -250,9 +251,8 @@ li.choose-1{
     font-size: 30px;
     line-height: 50px;
     color: #CDCAC8;
-
+    margin-right: 8px;
 }
-
 .choose-smallbox li:nth-child(2){
     font-size: 12px;
     color: #CDCAC8;
@@ -263,7 +263,8 @@ li.choose-1{
     height: 70px;
     background: #CDCAC8;
     float: left;
-    margin-top: 6px;
+    margin-top: 7px;
+    margin-left: 1px;
 }
 .xia-line{
     width: 100%;
@@ -707,29 +708,15 @@ li.del-service-line{
 }
 .footer-right div:nth-child(1){
     width: 83px;
-    background: green;
+    /*background: green;*/
+    height: auto;
 }
 .footer-right div:nth-child(2),
 .footer-right div:nth-child(3),
 .footer-right div:nth-child(4){
+    height: auto;
     width: 85px;
-    background: green;
+    /*background: green;*/
 }
 /*底部结束*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*家电结束*/
 
