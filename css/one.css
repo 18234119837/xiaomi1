@@ -429,8 +429,6 @@ img{
     border-bottom: 2px solid #ff6700;
     color: #ff6700;
 }
-
-
 .home-left{
     width: 234px;
     height:612px;
@@ -689,9 +687,6 @@ img{
     height: 24px;
     background: #ff6700;
 }
-
-
-
 .video-txt1{
     margin: 32px 0 6px;
     font-size: 14px;
@@ -776,9 +771,9 @@ li.del-service-line{
     font-size: 12px;
     text-align: center;
     line-height: 28px;
-    border-color: #ff6700;
     background: #fff;
     color: #ff6700;
+    border: 1px solid #ff6700;
 }
 /*服务结束*/
 /*底部开始*/
