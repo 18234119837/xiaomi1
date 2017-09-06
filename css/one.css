@@ -201,7 +201,7 @@ span{
     display: flex;
     justify-content: space-between;
 }
-.dian-box li{
+.banner .dian-box li{
     width: 8px;
     height: 8px;
     background: black;
@@ -581,7 +581,6 @@ img{
     height: 374px;
     background: white;
     padding: 45px 0 0;
-    /*font-size: 16px;*/
 }
 .inner li:nth-child(1){
     border-top:1px solid  #ffac13;
