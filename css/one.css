@@ -292,11 +292,38 @@ img{
     font-weight: 200;
     line-height: 58px;
     color: #333;
+    position: relative;
 }
+.star-r{
+    width: 71px;
+    height: 34px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    padding-top:24px;
+}
+.zuo{
+    width: 34px;
+    height: 24px;
+    border: 1px solid gray;
+    line-height: 24px;
+    text-align: center;
+    float:left;
+}.you{
+    width: 34px;
+    height: 24px;
+    border: 1px solid gray;
+    line-height: 24px;
+    text-align: center;
+     border-left:0;
+    float: left;
+}
+
 .star-home{
     margin-top: 0;
     padding-top: 60px;
 }
+
 .star-inner{
     width: 1226px;
     height: 340px;
@@ -406,16 +433,51 @@ img{
 .shangxia-box{
     width: 234px;
     height: 300px;
-    background: #3189fb;
+    /*background: #3189fb;*/
 }
 .shangxia-box li{
     width: 100%;
     height: 143px;
-    background: palevioletred;
+    background: white;
+    position: relative;
 }
 .shangxia:nth-child(2){
     margin-top: 14px;
 }
+.shangxia-img1{
+    width: 80px;
+    height: 80px;
+    background: yellow;
+    position: absolute;
+    bottom:20px;
+    right:16px;
+}.shangxia-img2{
+    width: 80px;
+    height: 80px;
+    background: yellow;
+    position: absolute;
+     bottom:20px;
+     right:16px;
+}
+ .sx-txt1{
+     position: absolute;
+     left:30px;
+     top:36px;
+     line-height: 14px;
+     font-size: 14px;
+     font-weight: 400;
+     color: #212121;
+ }.sx-txt2{
+     position: absolute;
+     left:30px;
+     top:58px;
+       line-height: 14px;
+       font-size: 14px;
+       font-weight: 400;
+       color: #ff6709;
+ }
+
+
 /*为你推荐开始*/
 .del-starline{
     border: 0;
