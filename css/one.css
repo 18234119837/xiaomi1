@@ -169,20 +169,18 @@ nav{
 .banner-list li:hover{
     background: #ff6700;
 }
-span{
-    float: right;
-    font-weight:800;
-}
 .left,.next{
     width: 41px;
     height:69px;
-    background: black;
     position: absolute;
     text-align: center;
     margin-top: -34px;
     color: white;
     font-size: 40px;
     line-height: 69px;
+}
+.left:hover,.next:hover{
+    background: rgba(0,0,0,0.6);
 }
 .left{
     left:234px;
@@ -204,8 +202,8 @@ span{
 .banner .dian-box li{
     width: 8px;
     height: 8px;
-    background: black;
-    border: 2px solid gray;
+    background: #939393;
+    border: 2px solid #d6dcd9;
     border-radius: 8px;
 }
 /*banner结束*/
@@ -241,6 +239,7 @@ li.choose-1{
     padding: 3px 0;
     margin-top: 1px;
 }
+
  .choose-top .choose-smallbox:hover li{
     color:white;
 }
@@ -255,7 +254,7 @@ li.choose-1{
     font-size: 30px;
     line-height: 50px;
     color: #CDCAC8;
-    margin-right: 8px;
+    margin-left: 23px;
 }
 
 .choose-smallbox li:nth-child(2){
@@ -291,8 +290,7 @@ img{
 .star{
     width: 1226px;
     height: 58px;
-    margin: 0 auto;
-    margin-top: 26px;
+    margin:26px auto 0;
     font-size: 22px;
     font-weight: 200;
     line-height: 58px;
@@ -328,8 +326,6 @@ img{
     /*margin-top: 0;*/
     /*padding-top: 60px;*/
 /*}*/
-
-
 
 .star-inner{
     width: 1226px;
@@ -438,9 +434,7 @@ img{
     background: plum;
     float: left;
 }
-
-
-
+/*家电的右边部分*/
 .home-right{
     margin-left: 14px;
     width: 978px;
@@ -461,29 +455,50 @@ img{
     height: 246px;
     padding:34px 0 20px;
     background: white;
-    position: relative;
     overflow: hidden;
+    position: relative;
 }
 .home-rtop li:hover{
-    transform:translateY(-4px) ;
+    transition: all 0.3s linear;
+    transform:translateY(-2px) ;
+    box-shadow: 0 5px 10px 3px #c4c4c4;
+}
+.home-rbottom li:hover,.home-left:hover{
+    transition: all 0.3s linear;
+    transform:translateY(-2px) ;
+    box-shadow: 0 5px 10px 3px #c4c4c4;
 }
 .add-home{
-    width: 100%;
-    height: 100px;
+    width:174px;
+    height:60px;
     background: rgb(255, 115, 0);
     background: orange;
     position: absolute;
     left: 0;
     bottom: -100px;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
+    padding:8px 30px;
+    font-size: 12px;
+    color: white;
 }
+.add-home span:nth-child(1){
+    color: #fff;
+}
+.add-text-c span:nth-child(3){
+    display: block;
+    margin-top:8px;
+    text-align: left;
+    color: rgba(255,255,255,0.6);
+}
+
 .home-rtop li:hover .add-home{
     bottom: 0;
     background: rgb(255, 115, 1);
 }
-
-
-
+.home-rbottom li:hover .add-home{
+    bottom: 0;
+    background: rgb(255, 115, 1);
+}
 .home-img{
     width: 150px;
     height: 150px;
@@ -499,7 +514,6 @@ img{
 .shangxia-box{
     width: 234px;
     height: 300px;
-    /*background: #3189fb;*/
 }
 .shangxia-box li{
     width: 100%;
@@ -554,6 +568,11 @@ img{
     border: 0;
     background: white;
 }
+.star-inner li:hover{
+    transition: all 0.3s linear;
+    transform:translateY(-1px) ;
+    box-shadow: 0 5px 10px 3px #c4c4c4;
+}
 .young{
     width: 1226px;
     height: 415px;
@@ -566,6 +585,11 @@ img{
     width: 291px;
     height: 100%;
     background: white;
+}
+.young li:hover{
+    transition: all 0.3s linear;
+    transform:translateY(-2px) ;
+    box-shadow: 0 5px 10px 3px #d3d3d3;
 }
 .young-img{
     width: 291px;
@@ -591,6 +615,14 @@ img{
     font-size: 14px;
     font-weight: 400;
 }
+.young-p3 span{
+    font-size: 14px;
+color: #FF6700;
+}
+
+
+
+
 
 /*为你推荐结束*/
 /*内容开始*/
@@ -608,6 +640,13 @@ img{
     background: white;
     padding: 45px 0 0;
 }
+.inner>li:hover{
+    transition: all 0.3s linear;
+    transform:translateY(-2px) ;
+    box-shadow: 0 5px 10px 3px #d3d3d3;
+}
+
+
 .inner li:nth-child(1){
     border-top:1px solid  #ffac13;
     color: #ffac13;
@@ -672,9 +711,9 @@ img{
     margin-left: -30px;
 }
 .inner-box .dian-box li{
-    width: 9px;
-    height:9px;
-    background: black;
+    width: 6px;
+    height:6px;
+    background: #7e7e7e;
     border-radius: 50%;
 }
 /*内容结束*/
