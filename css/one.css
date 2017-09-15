@@ -142,14 +142,14 @@ nav{
 .banner{
     width: 1226px;
     height: 460px;
-    background: plum;
+    /*background: plum;*/
     margin: 0 auto;
     position: relative;
 }
 .banner-img{
     width: 100%;
     height: 100%;
-    background: palegreen;
+    /*background: palegreen;*/
 }
 .banner-list{
     width: 234px;
@@ -431,7 +431,7 @@ img{
 .home-left{
     width: 234px;
     height:612px;
-    background: plum;
+    /*background: plum;*/
     float: left;
 }
 /*家电的右边部分*/
@@ -619,11 +619,6 @@ img{
     font-size: 14px;
 color: #FF6700;
 }
-
-
-
-
-
 /*为你推荐结束*/
 /*内容开始*/
 .inner{
@@ -698,7 +693,6 @@ color: #FF6700;
 .inner-img{
     width: 216px;
     height: 154px;
-    background: burlywood;
     margin: 15px 40px 0;
 }
 .inner-box .dian-box{
@@ -847,7 +841,7 @@ li.del-service-line{
 .footer-bigbox{
     width: 100%;
     height: auto;
-    background:#FAFAFA;
+    /*background:#FAFAFA;*/
 }
 .footer{
     width: 1226px;
