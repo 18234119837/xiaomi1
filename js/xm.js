@@ -48,10 +48,10 @@
         ka(home_boxs[i]);
     }
 }
-// 家电部分-----------------------导航结合内容切换效果结束
-//banner部分开始
-//轮播点击控制效果--------
+// 家电部分------------导航结合内容切换效果结束
+//banner部分开始------------------------------------
 {
+    //轮播点击控制效果--------
     var imgs = document.querySelectorAll('.banner-box li');
     var dians = document.querySelectorAll('.dianbox li');
     dians.forEach(function (ele, index) {
@@ -83,7 +83,6 @@
 // ---------------
     var now = 0;
     var stop = setInterval(fn, 2000);
-
     function fn(dir = 'next') {
         if (dir === 'next') {
             now++;
@@ -147,7 +146,7 @@
     for (let i = 0; i < sstar_bigboxs.length; i++) {
         starBox(sstar_bigboxs[i]);
     }
-//自动轮播
+    //自动轮播
     let sprev = document.querySelector('.sjiantou .sprev');
     let snext = document.querySelector('.sjiantou .snext');
     let sbottom_box = document.querySelector('.sstar-bottom-inner');
@@ -162,7 +161,6 @@
             sprev.classList.add('active');
         } else {
             sbottom_box.style.marginLeft = 0 + "px";
-
             snext.classList.add('active');
             sprev.classList.remove('active');
         }
@@ -229,7 +227,35 @@
     }
 }
 //内容部分效果结束
-
-
-
+//顶部购物车开始
+{
+    let che=document.querySelector('.header-last');
+    let che_txt=document.querySelector('.header-last-txt');
+    che.onmouseover=function(){
+        che_txt.style.opacity='1';
+    }
+    che.onmouseout=function(){
+        che_txt.style.opacity='0';
+    }
+}
+//顶部购物车结束
+//banner左侧导航效果开始
+{
+    let lists=document.querySelectorAll('.banner-list li');
+    let listh=document.querySelector('.banner-listh');
+    lists.forEach(function(ele,index){
+        ele.onmouseover=function(){
+            listh.style.opacity='1';
+        }
+        ele.onmouseout=function(){
+            listh.style.opacity='0';
+        }
+    })
+}
+//banner左侧导航效果结束
+//banner上鼠标移入效果开始
+{
+    
+}
+//banner上鼠标移入效果结束
 
